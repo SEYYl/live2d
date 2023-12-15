@@ -26,11 +26,11 @@ function loadWidget() {
 			<div id="waifu-tips"></div>
 			<canvas id="live2d" width="800" height="800"></canvas>
 			<div id="waifu-tool">
-				<span class="icon" aria-hidden="true"><use xlink:href="#icon-yinle"></use></span>
-				<span class="icon" aria-hidden="true"><use xlink:href="#icon-pinglun"></use></span>
-				<span class="icon" aria-hidden="true"><use xlink:href="#icon-yonghu"></use></span>
-				<span class="icon" aria-hidden="true"><use xlink:href="#icon-xiangji--"></use></span>
-				<span class="icon" aria-hidden="true"><use xlink:href="#icon-xianxing-09"></use></span>
+				<span class="fa fa-lg fa-music"></span>
+				<span class="fa fa-lg fa-comment"></span>
+				<span class="fa fa-lg fa-user-circle"></span>
+				<span class="fa fa-lg fa-camera-retro"></span>
+				<span class="fa fa-lg fa-times"></span>
 			</div>
 		</div>`);
 	setTimeout(() => {
