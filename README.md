@@ -1,5 +1,7 @@
 # Live2D with Music Player
-Hi，这是鸦鸦自用的宠物播放器。此版本极大地简化了代码逻辑。  
+Hi，这是拷贝自鸦鸦的宠物播放器。
+以下是原作者说明 PS ：只是修改了一些链接改为本项目
+此版本极大地简化了代码逻辑。  
 
 效果演示：[Live2D 宠物功能修改 | 音乐播放器+右键秘密通道](https://crowya.com/1088)  
 
@@ -25,7 +27,7 @@ Hi，这是鸦鸦自用的宠物播放器。此版本极大地简化了代码逻
 此时页尾脚本一共需要添加这些东西：
 ```
 <!--宠物播放器-->
-<script>const live2d_path = "https://cdn.jsdelivr.net/gh/crowya/live2d/live2d/";</script>
+<script>const live2d_path = "https://cdn.jsdelivr.net/gh/watlam/live2d/live2d/";</script>
 <meting-js server="tencent" type="playlist" id="8559460487" theme="#339981" fixed="true" preload="none" autoplay="false" loop="all" order="random" volume="0.3"></meting-js>
 <script>
 //封装异步加载资源的方法
@@ -51,9 +53,9 @@ function loadExternalResource(url, type) {
 
 if (screen.width >= 768) {
 	Promise.all([
-		loadExternalResource("https://cdn.jsdelivr.net/gh/crowya/live2d/live2d/waifu.min.css", "css"),
-		loadExternalResource("https://cdn.jsdelivr.net/gh/crowya/live2d/live2d/live2d.min.js", "js"),
-		loadExternalResource("https://cdn.jsdelivr.net/gh/crowya/live2d/live2d/waifu-tips.min.js", "js"),
+		loadExternalResource("https://cdn.jsdelivr.net/gh/watlam/live2d/live2d/waifu.min.css", "css"),
+		loadExternalResource("https://cdn.jsdelivr.net/gh/watlam/live2d/live2d/live2d.min.js", "js"),
+		loadExternalResource("https://cdn.jsdelivr.net/gh/watlam/live2d/live2d/waifu-tips.min.js", "js"),
 		loadExternalResource("https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css", "css"),
 		loadExternalResource("https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js", "js"),
 	]).then(() => {
@@ -76,7 +78,7 @@ if (screen.width >= 768) {
 2. 页尾脚本一共需要添加这些东西：（`live2d_path`换成自己的链接）
 ```
 <!--宠物播放器-->
-<script>const live2d_path = "https://crowya.com/wp-content/uploads/live2d/";</script>
+<script>const live2d_path = "https://www.watlam.com/wp-content/uploads/live2d/";</script>
 <meting-js server="tencent" type="playlist" id="8559460487" theme="#339981" fixed="true" preload="none" autoplay="false" loop="all" order="random" volume="0.3"></meting-js>
 <script>
 //封装异步加载资源的方法
