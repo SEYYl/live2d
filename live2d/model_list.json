@@ -2,12 +2,14 @@
     "models": [
     	"tororo",
     	"hijiki",
-    	"kesyoban"
+    	"kesyoban",
+        "wanko"
     ],
     
     "messages": [
         "喵喵 ~",
         "喵呜 ~",
-        "嘤嘤嘤 ~"
+        "嘤嘤嘤 ~",
+        "吃饭饭~"
     ]
 }
