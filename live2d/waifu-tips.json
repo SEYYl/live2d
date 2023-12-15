@@ -4,13 +4,13 @@
 		"text": ["好痒，快把手拿开～","鼠标可以吃吗？", "你看到我的小鱼干了吗？","你要干嘛呀？", "喵喵喵？", "等博主攒够了钱，就可以养一只真猫了。"]
 	}, {
 		"selector": "#waifu-tool .fa-music",
-		"text": ["想听音乐吗？","从今天起，做个有音乐细胞的喵星人。","悄咪咪地告诉你，这里有鸦鸦喜欢的音乐~","你确定要点吗？我听得耳朵都生茧了。","你会唱《学猫叫》吗？","我们一起学猫叫~<br>一起喵喵喵喵喵~","不得不说，鸦鸦的音乐品味真是一言难尽……"]
+		"text": ["想听音乐吗？","从今天起，做个有音乐细胞的喵星人。","悄咪咪地告诉你，这里有小点滴喜欢的音乐~","你确定要点吗？我听得耳朵都生茧了。","你会唱《学猫叫》吗？","我们一起学猫叫~<br>一起喵喵喵喵喵~","不得不说，鸦鸦的音乐品味真是一言难尽……"]
 	}, {
 		"selector": "#waifu-tool .fa-comment",
-		"text": ["猜猜我要说些什么？", "我从青蛙王子那里听到了不少人生经验。"]
+		"text": ["猜猜我要说些什么？", "我从街头老大爷那里听到了不少人生经验。"]
 	}, {
 		"selector": "#waifu-tool .fa-user-circle",
-		"text": ["要见见我的姐妹嘛？", "见见我的朋友们吧。","哼，见异思迁的人类！"]
+		"text": ["要见见我的兄弟嘛？", "见见我的朋友们吧。","哼，见异思迁的人类！"]
 	}, {
 		"selector": "#waifu-tool .fa-camera-retro",
 		"text": ["你要给我拍照呀？一二三～茄子～", "要不，我们来合影吧！", "保持微笑就好了～"]
@@ -18,10 +18,10 @@
 		"selector": "#waifu-tool .fa-times",
 		"text": ["你是不是嫌我烦了？", "See you later.", "后会有期……", "不要抛弃我呀……", "我们，还能再见面吗……", "哼，你会后悔的！"]
 	}, {
-		"selector": "a[href$='crowya.com']",
+		"selector": "a[href$='watlam.com']",
 		"text": ["点它就可以回到首页啦！", "回首页看看吧。"]
 	}, {
-		"selector": "a[href$='/about']",
+		"selector": "a[href$='/about.html']",
 		"text": ["你想知道我家主人是谁吗？", "这里有一些关于我家主人的秘密哦，要不要看看呢？", "发现主人出没地点！"]
 	}, {
 		"selector": ".site-state-tags",
@@ -30,10 +30,10 @@
 		"selector": ".site-state-categories",
 		"text": ["点击来查看文章分类哦。"]
 	}, {
-		"selector": "a[href$='/time']",
+		"selector": "a[href$='/time.html']",
 		"text": ["翻页比较麻烦吗，那就来看看时间轴吧。", "所有文章都整理在这里啦！"]
 	}, {
-		"selector": "a[href$='/friendlinks']",
+		"selector": "a[href$='/friendlinks.html']",
 		"text": ["这是我的朋友们哦ヾ(◍°∇°◍)ﾉﾞ", "要去大佬们的家看看吗？", "要去拜访一下我的朋友们吗？"]
 	}, {
 		"selector": "#navbar_search_input, #leftbar_search_input",
@@ -43,12 +43,12 @@
 		"text": ["快看看这里都有什么呢？"]
 	}, {
 		"selector": "#leftbar_overview_author_image",
-		"text": ["我家主人是个社恐，不要吓到她哦。", "我家主人很凶的！", "这是我家主人(*´∇｀*)"]
+		"text": ["我家主人是个社牛，不要被他烦死哦。", "我家主人很凶的！", "这是我家主人(*´∇｀*)"]
 	}, {
-		"selector": "a[href$='/yaquews']",
+		"selector": "a[href$='/gossip-notes.html']",
 		"text": ["主人通常会在这里分享一些生活日常。", "关注频道可以接收主人最新动态哦！", "你是不是暗恋我呀？"]
 	}, {
-		"selector": "a[href$='/feed']",
+		"selector": "a[href$='/feed.html']",
 		"text": ["这里可以订阅最新文章呢！", "利用 RSS 订阅器，就能快速知道博客有没有更新了呢。"]
 	}, {
 		"selector": "#post_content img",
@@ -170,6 +170,9 @@
 	}, {
 		"date": "09/10",
 		"text": "<span>教师节</span>，在学校要给老师问声好呀～"
+	}, {
+                "date": "09/18",
+		"text": "<span>九一八</span>， “九一八”，是国耻日，也是中华民族觉醒日"
 	}, {
 		"date": "10/01",
 		"text": "<span>国庆节</span>到了，为祖国母亲庆生！"
