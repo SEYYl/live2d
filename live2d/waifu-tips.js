@@ -26,7 +26,7 @@ function loadWidget() {
 			<div id="waifu-tips"></div>
 			<canvas id="live2d" width="800" height="800"></canvas>
 			<div id="waifu-tool">
-				class="fa fa-lg fa-music"></span>
+				<span class="fa fa-lg fa-music"></span>
 				<span class="fa fa-lg fa-comment"></span>
 				<span class="fa fa-lg fa-user-circle"></span>
 				<span class="fa fa-lg fa-camera-retro"></span>
@@ -230,7 +230,7 @@ function loadWidget() {
 
 function initWidget() {
 	document.body.insertAdjacentHTML("beforeend", `<div id="waifu-toggle">
-			<span>猫 咪</span>
+			<span>小点滴</span>
 		</div>`);
 	let toggle = document.getElementById("waifu-toggle");
 	toggle.addEventListener("click", () => {
