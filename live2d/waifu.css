@@ -12,7 +12,7 @@
 
 /*折叠时小标签*/
 #waifu-toggle {
-	background-color: #206051; /*折叠时小标签背景颜色*/
+	background-color: #09F253; /*折叠时小标签背景颜色*/
 	border-radius: 5px;
 	bottom: 66px;
 	color: #fff; /*折叠时小标签文本颜色*/
@@ -84,7 +84,7 @@
 }
 
 #waifu-tips span {
-	color: #206051;
+	color: #09F253;
 	/*color: #0099cc;*/
 }
 
