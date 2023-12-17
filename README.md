@@ -5,7 +5,7 @@ Hi，这是拷贝自鸦鸦的宠物播放器。
 
 此版本极大地简化了代码逻辑。  
 
-效果演示：[Live2D 宠物功能修改 | 音乐播放器+右键秘密通道](https://www.watlam.com/)  
+效果演示：[Live2D 宠物功能修改 | 音乐播放器+右键秘密通道](https://www.watlam.com/68.html)  
 
 ![maomi](https://github.com/watlam/live2d/assets/144750763/8608463a-99d9-417d-abb9-e947480354d5)
 
