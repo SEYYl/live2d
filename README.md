@@ -33,6 +33,8 @@ Hi，这是拷贝自鸦鸦的宠物播放器。
 <script>const live2d_path = "https://cdn.jsdelivr.net/gh/watlam/live2d/live2d/";</script>
 <meting-js server="tencent" type="playlist" id="8559460487" theme="#339981" fixed="true" preload="none" autoplay="false" loop="all" order="random" volume="0.3"></meting-js>
 <script>
+//主题未安装font awesome 需要引入；已有可以删除此行代码
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
 //封装异步加载资源的方法
 function loadExternalResource(url, type) {
 	return new Promise((resolve, reject) => {
@@ -84,6 +86,8 @@ if (screen.width >= 768) {
 <script>const live2d_path = "https://www.watlam.com/wp-content/uploads/live2d/";</script>
 <meting-js server="tencent" type="playlist" id="8559460487" theme="#339981" fixed="true" preload="none" autoplay="false" loop="all" order="random" volume="0.3"></meting-js>
 <script>
+//主题未安装font awesome 需要引入；已有可以删除此行代码
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
 //封装异步加载资源的方法
 function loadExternalResource(url, type) {
 	return new Promise((resolve, reject) => {
