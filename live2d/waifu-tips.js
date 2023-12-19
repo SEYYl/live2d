@@ -233,6 +233,7 @@ function initWidget() {
 			<span>小点滴</span>
 		</div>`);
 	let toggle = document.getElementById("waifu-toggle");
+	document.getElementById("waifu-toggle").style.zIndex = "9999";
 	toggle.addEventListener("click", () => {
 		toggle.classList.remove("waifu-toggle-active");
 		if (toggle.getAttribute("first-time")) {
