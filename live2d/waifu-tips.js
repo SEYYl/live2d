@@ -42,13 +42,13 @@ function loadWidget() {
 			ap.toggle();
 		});
 		document.querySelector("#waifu-tool .fa-comment").addEventListener("click", showHitokoto);
-		document.querySelector("#waifu-tool .fa-user-circle").addEventListener("click", loadNextModel);
+		document.querySelector("#waifu-tool .fa-circle-user").addEventListener("click", loadNextModel);
 		document.querySelector("#waifu-tool .fa-camera-retro").addEventListener("click", () => {
 			showMessage("照好了嘛，是不是很可爱呢？", 6000, 9);
 			Live2D.captureName = "photo.png";
 			Live2D.captureFrame = true;
 		});
-		document.querySelector("#waifu-tool .fa-times").addEventListener("click", () => {
+		document.querySelector("#waifu-tool .fa-circle-xmark").addEventListener("click", () => {
 			localStorage.setItem("waifu-display", Date.now());
 			showMessage("人生海海，祝你有帆也有岸。", 2000, 11);
 			document.getElementById("waifu").style.bottom = "-500px";
