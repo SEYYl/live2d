@@ -26,11 +26,11 @@ function loadWidget() {
 			<div id="waifu-tips"></div>
 			<canvas id="live2d" width="800" height="800"></canvas>
 			<div id="waifu-tool">
-				<span class="fa-solid fa-xl fa-music"></span>
-				<span class="fa-solid fa-xl fa-comment"></span>
-				<span class="fa-solid fa-xl fa-circle-user"></span>
-				<span class="fa-solid fa-xl fa-camera-retro"></span>
-				<span class="fa-solid fa-xl fa-circle-xmark"></span>
+				<span class="fa fa-lg fa-music"></span>
+				<span class="fa fa-lg fa-comment"></span>
+				<span class="fa fa-lg fa-user-circle"></span>
+				<span class="fa fa-lg fa-camera-retro"></span>
+				<span class="fa fa-lg fa-times"></span>
 			</div>
 		</div>`);
 	setTimeout(() => {
@@ -42,13 +42,13 @@ function loadWidget() {
 			ap.toggle();
 		});
 		document.querySelector("#waifu-tool .fa-comment").addEventListener("click", showHitokoto);
-		document.querySelector("#waifu-tool .fa-circle-user").addEventListener("click", loadNextModel);
+		document.querySelector("#waifu-tool .fa-user-circle").addEventListener("click", loadNextModel);
 		document.querySelector("#waifu-tool .fa-camera-retro").addEventListener("click", () => {
 			showMessage("照好了嘛，是不是很可爱呢？", 6000, 9);
 			Live2D.captureName = "photo.png";
 			Live2D.captureFrame = true;
 		});
-		document.querySelector("#waifu-tool .fa-circle-xmark").addEventListener("click", () => {
+		document.querySelector("#waifu-tool .fa-times").addEventListener("click", () => {
 			localStorage.setItem("waifu-display", Date.now());
 			showMessage("人生海海，祝你有帆也有岸。", 2000, 11);
 			document.getElementById("waifu").style.bottom = "-500px";
