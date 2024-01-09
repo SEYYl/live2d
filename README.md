@@ -58,9 +58,9 @@ function loadExternalResource(url, type) {
 
 if (screen.width >= 768) {
 	Promise.all([
-		loadExternalResource("https://cdn.jsdelivr.net/gh/SEYYl/live2d/live2d/waifu.min.css", "css"),
-		loadExternalResource("https://cdn.jsdelivr.net/gh/SEYYl/live2d/live2d/live2d.min.js", "js"),
-		loadExternalResource("https://cdn.jsdelivr.net/gh/SEYYl/live2d/live2d/waifu-tips.min.js", "js"),
+		loadExternalResource("https://cdn.jsdelivr.net/gh/watlam/live2d/live2d/waifu.min.css", "css"),
+		loadExternalResource("https://cdn.jsdelivr.net/gh/watlam/live2d/live2d/live2d.min.js", "js"),
+		loadExternalResource("https://cdn.jsdelivr.net/gh/watlam/live2d/live2d/waifu-tips.min.js", "js"),
 		loadExternalResource("https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css", "css"),
 		loadExternalResource("https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js", "js"),
 	]).then(() => {
