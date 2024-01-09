@@ -30,7 +30,7 @@ Hi，这是拷贝自鸦鸦的宠物播放器。
 此时页尾脚本一共需要添加这些东西：
 ```
 <!--宠物播放器-->
-<script>const live2d_path = "https://cdn.jsdelivr.net/gh/watlam/live2d/live2d/";</script>
+<script>const live2d_path = "https://cdn.jsdelivr.net/gh/SEYYl/live2d/live2d/";</script>
 <meting-js server="tencent" type="playlist" id="8559460487" theme="#339981" fixed="true" preload="none" autoplay="false" loop="all" order="random" volume="0.3"></meting-js>
 <script>
 //主题未安装font awesome 需要引入；已有可以删除此行代码
@@ -58,9 +58,9 @@ function loadExternalResource(url, type) {
 
 if (screen.width >= 768) {
 	Promise.all([
-		loadExternalResource("https://cdn.jsdelivr.net/gh/watlam/live2d/live2d/waifu.min.css", "css"),
-		loadExternalResource("https://cdn.jsdelivr.net/gh/watlam/live2d/live2d/live2d.min.js", "js"),
-		loadExternalResource("https://cdn.jsdelivr.net/gh/watlam/live2d/live2d/waifu-tips.min.js", "js"),
+		loadExternalResource("https://cdn.jsdelivr.net/gh/SEYYl/live2d/live2d/waifu.min.css", "css"),
+		loadExternalResource("https://cdn.jsdelivr.net/gh/SEYYl/live2d/live2d/live2d.min.js", "js"),
+		loadExternalResource("https://cdn.jsdelivr.net/gh/SEYYl/live2d/live2d/waifu-tips.min.js", "js"),
 		loadExternalResource("https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css", "css"),
 		loadExternalResource("https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js", "js"),
 	]).then(() => {
